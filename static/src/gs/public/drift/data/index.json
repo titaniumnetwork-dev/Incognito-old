@@ -1,0 +1,10 @@
+{
+    "TOTAL_MEMORY": 1073741824,
+    "dataUrl": "gs.data.unityweb",
+    "asmCodeUrl": "gs.asm.code.unityweb",
+    "asmMemoryUrl": "gs.asm.memory.unityweb",
+    "asmFrameworkUrl": "gs.asm.framework.unityweb",
+    "backgroundUrl": "gs.jpg",
+    "splashScreenStyle": "Light",
+    "backgroundColor": "#FFFFFF"
+    }

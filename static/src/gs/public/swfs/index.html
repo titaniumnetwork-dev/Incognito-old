@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/src/gs/ruffle/ruffle.js"></script>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body><embed src="about:blank"></embed></body>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+            window.RufflePlayer.config = {
+                autoplay: "auto",
+                letterbox: "on",
+                contextMenu: false,
+                polyfills: true,
+                backgroundColor: null
+            };
+        if (window.location.hash) document.querySelector('embed').src = window.location.hash.slice('1') + '.swf';
+    </script>
+</html>
