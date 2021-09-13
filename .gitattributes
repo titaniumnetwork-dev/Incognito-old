@@ -1,1 +1,6 @@
 *.unityweb filter=lfs diff=lfs merge=lfs -text
+.gba filter=lfs diff=lfs merge=lfs -text
+.nes filter=lfs diff=lfs merge=lfs -text
+.smc filter=lfs diff=lfs merge=lfs -text
+.md filter=lfs diff=lfs merge=lfs -text
+.json filter=lfs diff=lfs merge=lfs -text
