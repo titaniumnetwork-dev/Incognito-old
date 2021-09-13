@@ -1,0 +1,30 @@
+{
+  "name": "incognito",
+  "version": "1.0.0",
+  "description": "Access the world wide web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titaniumnetwork-dev/Incognito.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Titanium Network",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titaniumnetwork-dev/Incognito/issues"
+  },
+  "homepage": "https://github.com/titaniumnetwork-dev/Incognito#readme",
+  "dependencies": {
+    "corrosion": "^1.0.0",
+    "fastify": "^3.21.0",
+    "fastify-cookie": "^5.3.1",
+    "fastify-express": "^0.3.3",
+    "fastify-formbody": "^5.1.0",
+    "fastify-static": "^4.2.3"
+  }
+}
