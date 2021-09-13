@@ -101,7 +101,7 @@ function settings() {
             });
         })
         if (lastSelected) lastSelected.setAttribute('data-selected', '');
-    }
+    };
 };
 
 function gs() {
@@ -207,7 +207,7 @@ function closeFrame(id = '') {
     document.querySelector('main').style.removeProperty('display');
     frame.querySelector('iframe').src = 'about:blank';
     frame.style.removeProperty('display');
-    document.exitFullscreen();
+    if (document.fullscreenElement) document.exitFullscreen();
 };
 
 function changeTitle(val = '') {

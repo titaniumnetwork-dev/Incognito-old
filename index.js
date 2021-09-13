@@ -101,7 +101,7 @@ function render(data = {}) {
 
 function gateway(request, reply, val) {
     const url = isUrl(val) ? (new URL(/^http(s?):\/\//.test(val) ? val : 'http://' + val).href) : `${engines[(request.cookies.engine || config.engine)] || engines.google}${val}`;
-    if (config.authorization) reply.header('Set-Cookie', `${config.authorization.name}=${config.authorization.value}; Domain-${request.headers.host};`);
+    if (config.authorization) reply.header('Set-Cookie', `${config.authorization.name}=${config.authorization.value}; Domain=${request.headers.host};`);
     reply.header('Location', rewriteUrl(url));
     reply.status(301);
     reply.send('');
