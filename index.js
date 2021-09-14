@@ -1,8 +1,12 @@
+const fs = require('fs');
+const config = require('./config.json');
 const fastify = require('fastify')({
     ignoreTrailingSlash: true,
+    https: config.ssl ? { 
+        cert: fs.readFileSync('./ssl.cert', 'utf-8'),
+        key: fs.readFileSync('./ssl.key', 'utf-8'),
+    } : false,
 });
-const config = require('./config.json');
-const fs = require('fs');
 const Corrosion = require('corrosion');
 const https = require('https');
 const corrosion = new Corrosion({
@@ -91,7 +95,7 @@ fastify.register(require('fastify-static'), {
     prefix: '/',
 });
 
-fastify.listen(8080);
+fastify.listen((process.env.PORT || config.port));
 
 function render(data = {}) {
     return fs.readFileSync('./template.html', 'utf8').replace(/\$(theme|engine|main|head|bottom|id)/g, str => 
