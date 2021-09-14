@@ -190,11 +190,6 @@
         "title": "Run 3"
     },
     {
-        "image": "shellshockers.jpg",
-        "location": "/gateway?url=c2hlbGxzaG9jay5pbw%3D%3D",
-        "title": "ShellShock.io"
-    },
-    {
         "image": "slope.jpg",
         "location": "/src/gs/public/slope/",
         "title": "Slope"
