@@ -95,7 +95,7 @@ fastify.register(require('fastify-static'), {
     prefix: '/',
 });
 
-fastify.listen((process.env.PORT || config.port));
+fastify.listen((process.env.PORT || config.port), '0.0.0.0');
 
 function render(data = {}) {
     return fs.readFileSync('./template.html', 'utf8').replace(/\$(theme|engine|main|head|bottom|id)/g, str => 
