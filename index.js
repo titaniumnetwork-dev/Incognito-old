@@ -95,7 +95,13 @@ fastify.register(require('fastify-static'), {
     prefix: '/',
 });
 
-fastify.listen((process.env.PORT || config.port), '0.0.0.0');
+fastify.listen((process.env.PORT || config.port), '0.0.0.0', (err, address) => {
+    if (err) {
+        throw err;
+    } else {
+        console.log(`Incognito running on ${address}`)
+    }
+});
 
 function render(data = {}) {
     return fs.readFileSync('./template.html', 'utf8').replace(/\$(theme|engine|main|head|bottom|id)/g, str => 
