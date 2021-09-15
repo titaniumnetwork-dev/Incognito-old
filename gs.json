@@ -1,282 +1,282 @@
 [
     {
         "image": "1-on-1-soccer.jpg",
-        "location": "/src/gs/public/swfs/#1on1soccer",
+        "location": "./src/gs/public/swfs/#1on1soccer",
         "title": "1 on 1 Soccer"
     },
     {
         "image": "1v1-lol.jpg",
-        "location": "/gateway?url=MXYxLmxvbA%3D%3D",
+        "location": "./gateway?url=MXYxLmxvbA%3D%3D",
         "title": "1v1.LOL"
     },
     {
         "image": "2048.jpg",
-        "location": "/src/gs/public/2048/",
+        "location": "./src/gs/public/2048/",
         "title": "2048"
     },
     {
         "image": "a-fancy-pants-adventure.jpg",
-        "location": "/src/gs/public/swfs/#a-fancy-pants-adventure-world1",
+        "location": "./src/gs/public/swfs/#a-fancy-pants-adventure-world1",
         "title": "A Fancy Pants Adventure"
     },
     {
         "image": "alien-hominid.jpg",
-        "location": "/src/gs/public/swfs/#alienhominid",
+        "location": "./src/gs/public/swfs/#alienhominid",
         "title": "Alien Hominid"
     },
     {
         "image": "astray.jpg",
-        "location": "/src/gs/public/astray/",
+        "location": "./src/gs/public/astray/",
         "title": "Astray"
     },
     {
         "image": "chroma.jpg",
-        "location": "/src/gs/public/chroma/",
+        "location": "./src/gs/public/chroma/",
         "title": "The Chroma Incident"
     },
     {
         "image": "chrome-dinosaur.jpg",
-        "location": "/src/gs/public/dinosaur/",
+        "location": "./src/gs/public/dinosaur/",
         "title": "Chrome Dinosaur"
     },
     {
         "image": "cookie-clicker.jpg",
-        "location": "/src/gs/public/cookie/",
+        "location": "./src/gs/public/cookie/",
         "title": "Cookie Clicker"
     },
     {
         "image": "cubefield.jpg",
-        "location": "/src/gs/public/cubefield/",
+        "location": "./src/gs/public/cubefield/",
         "title": "Cubefield"
     },
     {
         "image": "doodle-jump.jpg",
-        "location": "/src/gs/public/doodle-jump/",
+        "location": "./src/gs/public/doodle-jump/",
         "title": "Doodle Jump"
     },
     {
         "image": "drift-hunters.jpg",
-        "location": "/src/gs/public/drift/",
+        "location": "./src/gs/public/drift/",
         "title": "Drift Hunters"
     },
     {
         "image": "ducklife.jpg",
-        "location": "/src/gs/public/ducklife/",
+        "location": "./src/gs/public/ducklife/",
         "title": "Duck Life"
     },
     {
         "image": "ducklife2.jpg",
-        "location": "/src/gs/public/ducklife2/",
+        "location": "./src/gs/public/ducklife2/",
         "title": "Duck Life 2"
     },
     {
         "image": "ducklife3.jpg",
-        "location": "/src/gs/public/ducklife3/",
+        "location": "./src/gs/public/ducklife3/",
         "title": "Duck Life 3: Evolution"
     },
     {
         "image": "ducklife4.jpg",
-        "location": "/src/gs/public/ducklife4/",
+        "location": "./src/gs/public/ducklife4/",
         "title": "Duck Life 4"
     },
     {
         "image": "earthbound.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=earthbound.smc",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=earthbound.smc",
         "title": "Earthbound"
     },
     {
         "image": "fireboy-and-watergirl-forest-temple.jpg",
-        "location": "/src/gs/public/fireboy-and-watergirl-forest-temple/",
+        "location": "./src/gs/public/fireboy-and-watergirl-forest-temple/",
         "title": "Fireboy & Watergirl Into the Forest Temple"
     },
     {
         "image": "flappybird.jpg",
-        "location": "/src/gs/public/flappybird/",
+        "location": "./src/gs/public/flappybird/",
         "title": "Flappy Bird"
     },
     {
         "image": "fnf.jpg",
-        "location": "/src/gs/public/fnf/",
+        "location": "./src/gs/public/fnf/",
         "title": "Friday Night Funkin"
     },
     {
         "image": "friendlyfire.jpg",
-        "location": "/src/gs/public/friendlyfire/",
+        "location": "./src/gs/public/friendlyfire/",
         "title": "Friendly Fire"
     },
     {
         "image": "gopherkart.jpg",
-        "location": "/src/gs/public/gopher-kart/",
+        "location": "./src/gs/public/gopher-kart/",
         "title": "Gopher Kart"
     },
     {
         "image": "hexgl.jpg",
-        "location": "/src/gs/public/hexgl/",
+        "location": "./src/gs/public/hexgl/",
         "title": "HexGL"
     },
     {
         "image": "justfall-lol.jpg",
-        "location": "/gateway?url=anVzdGZhbGwubG9s",
+        "location": "./gateway?url=anVzdGZhbGwubG9s",
         "title": "Justfall.LOL"
     },
     {
         "image": "littlebigsnake.jpg",
-        "location": "/gateway?url=bGl0dGxlYmlnc25ha2UuY29t",
+        "location": "./gateway?url=bGl0dGxlYmlnc25ha2UuY29t",
         "title": "LittleBigSnake"
     },
     {
         "image": "metroid.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=metroid.nes",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=metroid.nes",
         "title": "Metriod"
     },
     {
         "image": "minecraft.jpg",
-        "location": "/src/gs/public/mc-classic/",
+        "location": "./src/gs/public/mc-classic/",
         "title": "Minecraft Classic"
     },
     {
         "image": "pacman.jpg",
-        "location": "/src/gs/public/pacman/",
+        "location": "./src/gs/public/pacman/",
         "title": "Pac Man"
     },
     {
         "image": "paper-io.jpg",
-        "location": "/gateway?url=cGFwZXItaW8uY29t",
+        "location": "./gateway?url=cGFwZXItaW8uY29t",
         "title": "Paper.io"
     },
     {
         "image": "poke-emerald.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=poke_emerald.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_emerald.gba",
         "title": "Pokémon Emerald"
     },
     {
         "image": "poke-fire-red.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=poke_firered.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_firered.gba",
         "title": "Pokémon Fire Red"
     },
     {
         "image": "poke-leaf-green.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=poke_leafgreen.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_leafgreen.gba",
         "title": "Pokémon Leaf Green"
     },
     {
         "image": "poke-ruby.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=#poke_ruby.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=#poke_ruby.gba",
         "title": "Pokémon Ruby"
     },
     {
         "image": "poke-sapphire.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=poke_sapphire.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_sapphire.gba",
         "title": "Pokémon Sapphire"
     },
     {
         "image": "portal2d.jpg",
-        "location": "/src/gs/public/swfs/#portal2d",
+        "location": "./src/gs/public/swfs/#portal2d",
         "title": "Portal 2D"
     },
     {
         "image": "radiusraid.jpg",
-        "location": "/src/gs/public/radius-raid/",
+        "location": "./src/gs/public/radius-raid/",
         "title": "Radius Raid"
     },
     {
         "image": "ritz.jpg",
-        "location": "/src/gs/public/ritz/",
+        "location": "./src/gs/public/ritz/",
         "title": "Ritz"
     },
     {
         "image": "run3.jpg",
-        "location": "/src/gs/public/run3/",
+        "location": "./src/gs/public/run3/",
         "title": "Run 3"
     },
     {
         "image": "slope.jpg",
-        "location": "/src/gs/public/slope/",
+        "location": "./src/gs/public/slope/",
         "title": "Slope"
     },
     {
         "image": "sm-allstars.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=sm-allstars.smc",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=sm-allstars.smc",
         "title": "Super Mario All Stars"
     },
     {
         "image": "sm64.jpg",
-        "location": "/src/gs/public/sm64/",
+        "location": "./src/gs/public/sm64/",
         "title": "Super Mario 64"
     },
     {
         "image": "smb.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=smb.nes",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=smb.nes",
         "title": "Super Mario Bros"
     },
     {
         "image": "smb3.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=smb3.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=smb3.gba",
         "title": "Super Mario Bros 3"
     },
     {
         "image": "smw.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=smw.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=smw.gba",
         "title": "Super Mario World"
     },
     {
         "image": "sonic.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=sonic.md",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic.md",
         "title": "Sonic The Hedgehog"
     },
     {
         "image": "sonic2.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=sonic2.md",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic2.md",
         "title": "Sonic The Hedgehog 2"
     },
     {
         "image": "sonic3.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=sonic3.md",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic3.md",
         "title": "Sonic The Hedgehog 3"
     },
     {
         "image": "spaceinvaders.jpg",
-        "location": "/src/gs/public/spaceinvaders/",
+        "location": "./src/gs/public/spaceinvaders/",
         "title": "Space Invaders"
     },
     {
         "image": "super-metroid.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=supermetroid.smc",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=supermetroid.smc",
         "title": "Super Metroid"
     },
     {
         "image": "vex3.jpg",
-        "location": "/src/gs/public/vex3/",
+        "location": "./src/gs/public/vex3/",
         "title": "Vex 3"
     },
     {
         "image": "vex4.jpg",
-        "location": "/src/gs/public/vex4/",
+        "location": "./src/gs/public/vex4/",
         "title": "Vex 4"
     },
     {
         "image": "vex5.jpg",
-        "location": "/src/gs/public/vex5/",
+        "location": "./src/gs/public/vex5/",
         "title": "Vex 5"
     },
     {
         "image": "zelda-minish-cap.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=zelda_minish.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda_minish.gba",
         "title": "The Legend of Zelda: The Minish Cap"
     },
     {
         "image": "zelda-past.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=zelda_past.gba",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda_past.gba",
         "title": "The Legend of Zelda: A Link to the Past"
     },
     {
         "image": "zelda.jpg",
-        "location": "/src/gs/public/webretro/?core=autodetect&rom=zelda.nes",
+        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda.nes",
         "title": "The Legend of Zelda"
     },
     {
         "image": "zombsroyale.jpg",
-        "location": "/gateway?url=em9tYnNyb3lhbGUuaW8%3D",
+        "location": "./gateway?url=em9tYnNyb3lhbGUuaW8%3D",
         "title": "ZombsRoyale.io"
     }
 ]

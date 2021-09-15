@@ -164,7 +164,7 @@ async function home() {
     function submit() {
         form.addEventListener('submit', e => {
             e.preventDefault();
-            renderFrame('web', `/gateway?url=${encodeURIComponent(btoa(form.querySelector('input').value))}`);
+            renderFrame('web', `./gateway?url=${encodeURIComponent(btoa(form.querySelector('input').value))}`);
         });
     };
     function quickLinks() {
@@ -179,7 +179,7 @@ async function home() {
         const suggestions = document.querySelector('#suggestions');
         form.querySelector('input').addEventListener('input', async () => {
             suggestions.innerHTML = '';
-            const res = await fetch('/suggestions/', {
+            const res = await fetch('./suggestions/', {
                 method: 'POST',
                 body: form.querySelector('input').value,
             });
