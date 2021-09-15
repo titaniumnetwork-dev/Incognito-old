@@ -100,7 +100,7 @@ fastify.listen((process.env.PORT || config.port), '0.0.0.0', (err, address) => {
         throw err;
     } else {
         console.log(`Incognito running on ${address}`)
-    }
+    };
 });
 
 function render(data = {}) {
