@@ -57,6 +57,5 @@ More games can be added to Incognito by adding JSON in `gs.json` in a specific f
 `thumbnail` images are only located in `/src/gs/thumbnails/`
 
 Some games that are available in Incognito's main website are not available in this repo due to sizing reasons.
-
 These games that don't come with this repo are available in [gfiles](https://github.com/caracal-js/gfiles).
 
