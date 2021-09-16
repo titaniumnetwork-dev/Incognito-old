@@ -42,3 +42,21 @@ npm start
 - `authorization` (Object { name: "...", value: "..." } / false) Proxy authorization cookie
 - `appearance` ("bright" / "midnight" / "midnight") Default site appearance
 - `engine` ("google" / "bing" / "brave" / "youtube" / "twitter" / "reddit") Default search engine 
+
+
+## Games
+
+More games can be added to Incognito by adding JSON in `gs.json` in a specific format.
+```json
+{
+    "thumbnail": "thumbnail.jpg", 
+    "location": "./gamelocation/",
+    "title": "Game title"
+}
+```
+`thumbnail` images are only located in `/src/gs/thumbnails/`
+
+Some games that are available in Incognito's main website are not available in this repo due to sizing reasons.
+
+These games that don't come with this repo are available in [gfiles](https://github.com/caracal-js/gfiles).
+
