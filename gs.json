@@ -80,11 +80,6 @@
         "title": "Duck Life 4"
     },
     {
-        "image": "earthbound.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=earthbound.smc",
-        "title": "Earthbound"
-    },
-    {
         "image": "fireboy-and-watergirl-forest-temple.jpg",
         "location": "./src/gs/public/fireboy-and-watergirl-forest-temple/",
         "title": "Fireboy & Watergirl Into the Forest Temple"
@@ -93,11 +88,6 @@
         "image": "flappybird.jpg",
         "location": "./src/gs/public/flappybird/",
         "title": "Flappy Bird"
-    },
-    {
-        "image": "fnf.jpg",
-        "location": "./src/gs/public/fnf/",
-        "title": "Friday Night Funkin"
     },
     {
         "image": "friendlyfire.jpg",
@@ -125,11 +115,6 @@
         "title": "LittleBigSnake"
     },
     {
-        "image": "metroid.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=metroid.nes",
-        "title": "Metriod"
-    },
-    {
         "image": "minecraft.jpg",
         "location": "./src/gs/public/mc-classic/",
         "title": "Minecraft Classic"
@@ -143,31 +128,6 @@
         "image": "paper-io.jpg",
         "location": "./gateway?url=cGFwZXItaW8uY29t",
         "title": "Paper.io"
-    },
-    {
-        "image": "poke-emerald.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_emerald.gba",
-        "title": "Pokémon Emerald"
-    },
-    {
-        "image": "poke-fire-red.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_firered.gba",
-        "title": "Pokémon Fire Red"
-    },
-    {
-        "image": "poke-leaf-green.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_leafgreen.gba",
-        "title": "Pokémon Leaf Green"
-    },
-    {
-        "image": "poke-ruby.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=#poke_ruby.gba",
-        "title": "Pokémon Ruby"
-    },
-    {
-        "image": "poke-sapphire.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=poke_sapphire.gba",
-        "title": "Pokémon Sapphire"
     },
     {
         "image": "portal2d.jpg",
@@ -195,54 +155,14 @@
         "title": "Slope"
     },
     {
-        "image": "sm-allstars.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=sm-allstars.smc",
-        "title": "Super Mario All Stars"
-    },
-    {
         "image": "sm64.jpg",
         "location": "./src/gs/public/sm64/",
         "title": "Super Mario 64"
     },
     {
-        "image": "smb.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=smb.nes",
-        "title": "Super Mario Bros"
-    },
-    {
-        "image": "smb3.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=smb3.gba",
-        "title": "Super Mario Bros 3"
-    },
-    {
-        "image": "smw.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=smw.gba",
-        "title": "Super Mario World"
-    },
-    {
-        "image": "sonic.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic.md",
-        "title": "Sonic The Hedgehog"
-    },
-    {
-        "image": "sonic2.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic2.md",
-        "title": "Sonic The Hedgehog 2"
-    },
-    {
-        "image": "sonic3.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=sonic3.md",
-        "title": "Sonic The Hedgehog 3"
-    },
-    {
         "image": "spaceinvaders.jpg",
         "location": "./src/gs/public/spaceinvaders/",
         "title": "Space Invaders"
-    },
-    {
-        "image": "super-metroid.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=supermetroid.smc",
-        "title": "Super Metroid"
     },
     {
         "image": "vex3.jpg",
@@ -258,21 +178,6 @@
         "image": "vex5.jpg",
         "location": "./src/gs/public/vex5/",
         "title": "Vex 5"
-    },
-    {
-        "image": "zelda-minish-cap.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda_minish.gba",
-        "title": "The Legend of Zelda: The Minish Cap"
-    },
-    {
-        "image": "zelda-past.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda_past.gba",
-        "title": "The Legend of Zelda: A Link to the Past"
-    },
-    {
-        "image": "zelda.jpg",
-        "location": "./src/gs/public/webretro/?core=autodetect&rom=zelda.nes",
-        "title": "The Legend of Zelda"
     },
     {
         "image": "zombsroyale.jpg",
