@@ -180,6 +180,16 @@
         "title": "Vex 5"
     },
     {
+        "image": "warfare1917.png",
+        "location": "./src/gs/public/swfs/#warfare1917",
+        "title": "Warfare 1917"
+    },
+    {
+        "image": "warfare1944.jpg",
+        "location": "./src/gs/public/swfs/#warfare1944",
+        "title": "Warfare 1944"
+    },
+    {
         "image": "zombsroyale.jpg",
         "location": "./gateway?url=em9tYnNyb3lhbGUuaW8%3D",
         "title": "ZombsRoyale.io"
