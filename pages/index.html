@@ -10,15 +10,21 @@
 </div>  
 <div class="content">
     <form class="service" action="./gateway" method="POST">
-        <input list="suggestions" name="url" placeholder="Search the web">
+        <input list="suggestions" required autocomplete="off" name="url" placeholder="Search the web">
         <button style="margin-right: 0" type="submit" class="button" data-style="secondary">Go</button>
     </form>
-    <datalist id="suggestions"></datalist>
-    <a href="./gateway?url=ZGlzY29yZC5jb20%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-discord"></i>Discord</a>
+    <datalist id="suggestions">
+        <option value="discord.com"></option>
+        <option value="youtube.com"></option>
+        <option value="twitch.tv"></option>
+        <option value="twitter.com/explore"></option>
+        <option value="reddit.com"></option>
+    </datalist>
+    <!--a href="./gateway?url=ZGlzY29yZC5jb20%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-discord"></i>Discord</a>
     <a href="./gateway?url=eW91dHViZS5jb20%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-youtube"></i>Youtube</a>
     <a href="./gateway?url=dHdpdGNoLnR2" style="margin-left: 0;" class="quick-button"><i class="fab fa-twitch"></i>Twitch</a>
     <a href="./gateway?url=dHdpdHRlci5jb20vZXhwbG9yZQ%3D%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-twitter"></i>Twitter</a>
-    <a href="./gateway?url=cmVkZGl0LmNvbQ%3D%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-reddit"></i>Reddit</a>
+    <a href="./gateway?url=cmVkZGl0LmNvbQ%3D%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-reddit"></i>Reddit</a-->
 </div>
 <div class="faq">
     <section>

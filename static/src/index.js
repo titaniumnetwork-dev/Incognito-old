@@ -184,11 +184,21 @@ async function home() {
                 body: form.querySelector('input').value,
             });
             const json = await res.json();
-            json.forEach(entry => {
-                const option = document.createElement('option');
-                option.value = entry.phrase;
-                suggestions.appendChild(option);
-            });
+            if (json.length) {
+                json.forEach(entry => {
+                    const option = document.createElement('option');
+                    option.value = entry.phrase;
+                    suggestions.appendChild(option);
+                });
+            } else {
+                suggestions.innerHTML = `
+                <option value="discord.com"></option>
+                <option value="youtube.com"></option>
+                <option value="twitch.tv"></option>
+                <option value="twitter.com/explore"></option>
+                <option value="reddit.com"></option>
+                `;
+            }
         });
     };
 };

@@ -303,6 +303,7 @@ input {
     border: 1px solid var(--border-color);
     color: var(--text-color);
     border-radius: 3px;
+    outline: none;
 }
 
 .frame {
@@ -418,6 +419,9 @@ body[data-page="settings"] .tab input {
     .faq section {
         width: 90%;
     }
+    body[data-page=home] form input {
+        width: calc(45% - 70px);
+    }
 }
 
 @media only screen and (max-width: 545px) {
@@ -438,9 +442,6 @@ body[data-page="settings"] .tab input {
 }
 
 @media only screen and (max-width: 710px) {
-    body[data-page=home] form input {
-        width: calc(100% - 70px);
-    }
     body[data-page=settings] .tab input {
         width: calc(100% - 155px)
     }
@@ -458,5 +459,8 @@ body[data-page="settings"] .tab input {
 @media only screen and (max-width: 890px) {
     .faq {
         grid-template-columns: auto;
+    }
+    body[data-page=home] form input {
+        width: calc(100% - 70px);
     }
 }
