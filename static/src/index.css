@@ -435,9 +435,6 @@ body[data-page="settings"] .tab input {
     .faq section {
         width: 90%;
     }
-    body[data-page=home] form input {
-        width: calc(45% - 70px);
-    }
 }
 
 @media only screen and (max-width: 545px) {
@@ -448,6 +445,9 @@ body[data-page="settings"] .tab input {
     .home-logo .text {
         height: 55px;
         font-size: 55px;
+    }
+    body[data-page=home] form input {
+        width: 65%;
     }
     .gs-search {
         width: 100%;
@@ -475,8 +475,5 @@ body[data-page="settings"] .tab input {
 @media only screen and (max-width: 890px) {
     .faq {
         grid-template-columns: auto;
-    }
-    body[data-page=home] form input {
-        width: 65%;
     }
 }
