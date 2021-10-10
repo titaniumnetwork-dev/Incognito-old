@@ -1,43 +1,21 @@
 <main>
-<div class="banner">
-    <section>
+<div class="home">
+    <div>
         <div class="home-logo">
-            <img src="./src/index-white.svg">
+            <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.37 365.37"><defs>    <style>       .cls-1{    fill:none;    stroke-width:18px;}  .cls-1, .cls-2 {    stroke: var(--secondary-color);    stroke-miterlimit:10;} .cls-2 {    fill: var(--secondary-color);    stroke-width:5px;}    </style>  </defs><circle class="cls-1" cx="182.68" cy="182.68" r="173.68" /><path class="cls-2" d="M210.41,66.38A115.27,115.27,0,0,1,70.52,248.19,134,134,0,1,0,210.41,66.38Z" transform="translate(-17.32 -17.32)" /></svg>
             <div class="text">Incognito</div>
         </div>
-    </section>
-</div>  
-<div class="content">
-    <form class="service" action="./gateway" method="POST">
-        <input list="suggestions" style="border-radius: 3px 0px 0px 3px ; border-right: none;" required autocomplete="off" name="url" placeholder="Search the web"><button style="border-radius:  0px 3px 3px 0px; margin-right: 0; margin-left: 0;" type="submit" class="button" data-style="secondary">Go</button>
-    </form>
-    <datalist id="suggestions">
-        <option value="discord.com"></option>
-        <option value="youtube.com"></option>
-        <option value="twitch.tv"></option>
-        <option value="twitter.com/explore"></option>
-        <option value="reddit.com"></option>
-    </datalist>
-    <!--a href="./gateway?url=ZGlzY29yZC5jb20%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-discord"></i>Discord</a>
-    <a href="./gateway?url=eW91dHViZS5jb20%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-youtube"></i>Youtube</a>
-    <a href="./gateway?url=dHdpdGNoLnR2" style="margin-left: 0;" class="quick-button"><i class="fab fa-twitch"></i>Twitch</a>
-    <a href="./gateway?url=dHdpdHRlci5jb20vZXhwbG9yZQ%3D%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-twitter"></i>Twitter</a>
-    <a href="./gateway?url=cmVkZGl0LmNvbQ%3D%3D" style="margin-left: 0;" class="quick-button"><i class="fab fa-reddit"></i>Reddit</a-->
-</div>
-<div class="faq">
-    <section>
-        <h1>About Incognito</h1>
-        <p>
-            Access the world wide web with Incognito, a fast and rather fancy proxy service. Enjoy a more private internet session. 
-        </p>
-    </section>
-    <section>
-    <h1>Why use Incognito?</h1>
-    <p>
-        Incognito has a web proxy with phenomenal website compatablity. Many of the websites include Youtube, Discord, Reddit, Twitch, and even some streaming services.
-        As discussed in our <a href="./privacy">privacy policy</a>, we do not sell or store any of your data at all.
-    </p>
-    </section>
+        <form class="service" action="./gateway" method="POST">
+            <input list="suggestions" style="border-radius: 30px 0px 0px 30px; padding-left: 15px; border-right: none;" required autocomplete="off" name="url" placeholder="Search the web"><button style="border: 1px solid var(--border-color); border-left: 0; border-radius:  0px 30px 30px 0px; margin-right: 0; margin-left: 0;" type="submit" class="button" data-style="secondary"><i style="color: var(--border-color);" class="fas fa-search"></i></button>
+        </form>
+        <datalist id="suggestions">
+            <option value="discord.com"></option>
+            <option value="youtube.com"></option>
+            <option value="twitch.tv"></option>
+            <option value="twitter.com/explore"></option>
+            <option value="reddit.com"></option>
+        </datalist>
+    </div>
 </div>
 </main>
 <div style="background: white;" data-service="web" class="frame">

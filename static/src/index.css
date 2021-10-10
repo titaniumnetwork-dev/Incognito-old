@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-@import url('./src/fa.css');
+@import url('./fa.css');
 
 body {
     --header-background: #FFF;
@@ -92,6 +92,14 @@ nav {
     align-items: center;
 }
 
+body[data-page=home] {
+    --width: 93%;
+}
+
+body[data-page=home] nav section .home {
+    display: none;
+}
+
 nav section:first-child *:first-child {
     margin-left: 0;
 }
@@ -176,20 +184,28 @@ footer nav a, footer nav span {
 .home-logo {
     display: flex;
     align-items: center;
-    margin-bottom: 4px;
+    justify-content: center;
+    margin-bottom: 18px;
 }
 
-.home-logo img {
-    width: 75px;
-    height: 75px;
+.home-logo svg, .home-logo img {
+    width: 80px;
+    height: 80px;
     margin-right: 10px;
 }
 
 .home-logo .text {
-    height: 75px;
+    height: 80px;
     display: inline-block;
-    font-size: 60px;
-    color: white;
+    font-size: 70px;
+    color: var(--secondary-color);
+}
+
+.home {
+    width: 100%;
+    height: calc(100vh - 160px);
+    padding-top: 10%;
+    text-align: center;
 }
 
 .banner {
@@ -393,7 +409,7 @@ input {
 }
 
 body[data-page="home"] form input {
-    width: 500px;
+    width: 440px;
 }
 
 body[data-page="settings"] .tab input {
@@ -431,7 +447,7 @@ body[data-page="settings"] .tab input {
     }
     .home-logo .text {
         height: 55px;
-        font-size: 45px;
+        font-size: 55px;
     }
     .gs-search {
         width: 100%;
@@ -461,6 +477,6 @@ body[data-page="settings"] .tab input {
         grid-template-columns: auto;
     }
     body[data-page=home] form input {
-        width: calc(100% - 70px);
+        width: 65%;
     }
 }
