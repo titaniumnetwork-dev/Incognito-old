@@ -55,6 +55,16 @@ body[data-appearance="ocean"] {
     background: #161923
 }
 
+body[data-appearance="lime"] {
+    --border-color: rgb(255, 255, 255, .2);
+    --text-color: #FFF;
+    --header-background: #185ADB;
+    --secondary-color: #FFC947;
+    --scrollbar-thumb-color: rgb(52, 184, 116, 0.3);
+    --scrollbar-track-color: rgb(52, 184, 116, 0.1);
+    background:#0A1931;
+}
+
 body[data-appearance="midnight"] {
     --border-color:rgb(255, 255, 255, .2);
     --header-background: #181818;
