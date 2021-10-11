@@ -22,7 +22,7 @@ const routes = [
     [ '/gs/', 'gs', path.join(__dirname, 'pages', 'gs.html'), str => str.replace('$gs', buildGames(require('./gs.json'))) ],
     [ '/privacy/', 'privacy', path.join(__dirname, 'pages', 'privacy.html') ],
     [ '/settings/', 'settings', path.join(__dirname, 'pages', 'settings.html') ],
-    [ '/support/', 'home', path.join(__dirname, 'pages', 'support.html') ],
+    [ '/support/', 'faq', path.join(__dirname, 'pages', 'support.html') ],
     [ '/', 'home', path.join(__dirname, 'pages', 'index.html') ],
 ];
 const base64 = {
