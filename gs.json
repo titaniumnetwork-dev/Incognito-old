@@ -95,6 +95,11 @@
         "title": "Friendly Fire"
     },
     {
+        "image": "geometry.jpg",
+        "location": "./src/gs/public/geometry/",
+        "title": "Geometry Dash"
+    },
+    {
         "image": "gopherkart.jpg",
         "location": "./src/gs/public/gopher-kart/",
         "title": "Gopher Kart"
