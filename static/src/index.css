@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('./fa.css');
 
 body {
@@ -65,6 +66,17 @@ body[data-appearance="lime"] {
     background:#0A1931;
 }
 
+body[data-appearance="terminal"] {
+    --border-color: rgb(255, 255, 255, .2);
+    --text-color: #FFF;
+    --header-background: #000;
+    --secondary-color: mediumseagreen;
+    --scrollbar-thumb-color: rgb(52, 184, 116, 0.3);
+    --scrollbar-track-color: rgb(52, 184, 116, 0.1);
+    font-family: Ubuntu Mono;
+    background:#000;
+}
+ 
 body[data-appearance="midnight"] {
     --border-color:rgb(255, 255, 255, .2);
     --header-background: #181818;
@@ -87,6 +99,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 500;
     font-family: Noto Sans JP;
+}
+
+body[data-appearance="terminal"] h1, body[data-appearance="terminal"] h2, body[data-appearance="terminal"] h3, body[data-appearance="terminal"] h4, body[data-appearance="terminal"] h5, body[data-appearance="terminal"] h6 {
+    font-family: Ubuntu Mono;
 }
 
 h1 {
@@ -159,7 +175,7 @@ footer nav a, footer nav span {
     border-radius: 3px;
     background: #242424;
     border: solid 1px #282828;
-    font-family: "Roboto";
+    font-family: inherit;
 }
 
 .button[data-style="secondary"] {
@@ -179,7 +195,7 @@ footer nav a, footer nav span {
     border-radius: 30px;
     background: none;
     border: 1px solid var(--border-color);
-    font-family: "Roboto";
+    font-family: inherit;
 }
 
 .quick-button i {
@@ -304,7 +320,7 @@ footer nav a, footer nav span {
     border-radius: 30px;
     background: none;
     border: 1px solid var(--border-color);
-    font-family: "Roboto";
+    font-family: inherit;
 }
 
 .options li i {
@@ -323,7 +339,7 @@ footer nav a, footer nav span {
 
 input {
     background: none;
-    font-family: "Roboto";
+    font-family: inherit;
     padding: 0px 10px;
     height: 48px;
     border: 1px solid var(--border-color);
