@@ -40,7 +40,7 @@ npm start
 - `proxy` (true / false) Have Corrosion be hosted on the Node.js application. Recommended to have Corrosion hosted elsewhere with large amounts of clients.
 - `blacklist` Array of hostnames to be blocked on the proxy.
 - `authorization` (Object { name: "...", value: "..." } / false) Proxy authorization cookie
-- `appearance` ("bright" / "midnight" / "midnight") Default site appearance
+- `appearance` ("bright" / "midnight" / "ocean" / "lime" / "terminal") Default site appearance
 - `engine` ("google" / "bing" / "brave" / "youtube" / "twitter" / "reddit") Default search engine 
 
 
