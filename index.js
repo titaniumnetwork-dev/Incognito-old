@@ -37,6 +37,7 @@ const base64 = {
 };
 const engines = {
     google: 'https://www.google.com/search?q=',
+    searx: 'https://searx.degenerate.info/searchq=',
     youtube: 'https://www.youtube.com/results?search_query=',
     bing: 'https://www.bing.com/search?q=',
     brave: 'https://search.brave.com/search?q=',
