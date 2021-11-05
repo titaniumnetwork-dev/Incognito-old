@@ -145,6 +145,11 @@
         "title": "Radius Raid"
     },
     {
+        "image": "retro-bowl.jpg",
+        "location": "./src/gs/public/retro-bowl/",
+        "title": "Retro Bowl"
+    },
+    {
         "image": "ritz.jpg",
         "location": "./src/gs/public/ritz/",
         "title": "Ritz"
