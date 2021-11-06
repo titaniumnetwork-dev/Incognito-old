@@ -200,6 +200,11 @@ async function home() {
                 `;
             }
         });
+        document.body.addEventListener('keyup', function(event) {
+            if (event.keyCode == 191) {
+                document.querySelector('input').focus();
+            };
+        });
     };
 };
 
