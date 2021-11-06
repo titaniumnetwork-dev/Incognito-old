@@ -170,6 +170,11 @@
         "title": "Super Mario 64"
     },
     {
+        "image": "smashbros.jpg
+        "location": "./src/gs/public/smashbros
+        "title": "Smash Bros 64"
+    },
+    {
         "image": "spaceinvaders.jpg",
         "location": "./src/gs/public/spaceinvaders/",
         "title": "Space Invaders"
