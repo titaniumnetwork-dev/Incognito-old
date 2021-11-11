@@ -23,7 +23,8 @@ const routes = [
     [ '/privacy/', 'privacy', path.join(__dirname, 'pages', 'privacy.html') ],
     [ '/settings/', 'settings', path.join(__dirname, 'pages', 'settings.html') ],
     [ '/support/', 'faq', path.join(__dirname, 'pages', 'support.html') ],
-    [ '/', 'home', path.join(__dirname, 'pages', 'index.html') ],
+    [ '/', 'home', path.join(__dirname, 'pages', 'template_index.html') ],
+    //[ '/', 'home', path.join(__dirname, 'pages', 'index.html') ],
 ];
 const base64 = {
     encode(val){
