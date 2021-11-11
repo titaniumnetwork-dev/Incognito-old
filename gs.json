@@ -203,5 +203,9 @@
         "image": "zombsroyale.jpg",
         "location": "./gateway?url=em9tYnNyb3lhbGUuaW8%3D",
         "title": "ZombsRoyale.io"
-    }
+    },
+    {
+        "image": "FFVI.jpg",
+        "location": "./src/gs/public/FFVI/",
+        "title": "Final Fantasy VI"
 ]
