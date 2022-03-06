@@ -3,7 +3,7 @@ Access the world wide web!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/titaniumnetwork-dev/Incognito/tree/main)
 <a href="https://repl.it/github/titaniumnetwork-dev/Incognito">
-  <img src="https://replit.com/badge/github/titaniumnetwork-dev/Incognito" alt="Deploy">
+  <img src="https://replit.com/badge/github/titaniumnetwork-dev/Incognito" alt="Deploy" style="height:32px;">
 </a>
 
 ## Setup
