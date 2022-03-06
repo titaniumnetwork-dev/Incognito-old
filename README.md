@@ -6,7 +6,7 @@ Access the world wide web!
   <img src="https://replit.com/badge/github/titaniumnetwork-dev/Incognito" alt="Deploy" style="height:32px;">
 </a>
 <br>
-**Note: Deploy to Heroku will only work when forking this, then hitting the deploy button.**
+**Note: Deploy to Heroku will only work when forking this, then clicking the deploy button.**
 ## Setup
 
 ```sh
