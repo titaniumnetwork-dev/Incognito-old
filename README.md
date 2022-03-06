@@ -2,8 +2,11 @@
 Access the world wide web!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/titaniumnetwork-dev/Incognito/tree/main)
-[![Deploy](https://raw.githubusercontent.com/QuiteAFancyEmerald/HolyUnblockerPublic/master/views/assets/img/replit.svg?raw)](https://repl.it/github/titaniumnetwork-dev/Incognito)
-
+<a href="https://repl.it/github/titaniumnetwork-dev/Incognito">
+  <img src="https://replit.com/badge/github/titaniumnetwork-dev/Incognito" alt="Deploy" style="height:32px;">
+</a>
+<br>
+**Note: Deploy to Heroku will only work when forking this, then clicking the deploy button.**
 ## Setup
 
 ```sh
