@@ -5,6 +5,7 @@ Access the world wide web!
 <a href="https://repl.it/github/titaniumnetwork-dev/Incognito">
   <img src="https://replit.com/badge/github/titaniumnetwork-dev/Incognito" alt="Deploy" style="height:32px;">
 </a>
+<br>
 **Note: Deploy to Heroku will only work when forking this, then hitting the deploy button.**
 ## Setup
 
